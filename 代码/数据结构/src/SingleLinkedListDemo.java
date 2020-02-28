@@ -1,27 +1,47 @@
 import java.util.Stack;
 
-public class SingleLinkedList {
+
+
+public class SingleLinkedListDemo{
 
     public static void main(String[] args) {
-        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        SingleLinkedList singleLinkedList1 = new SingleLinkedList();
+        SingleLinkedList singleLinkedList2 = new SingleLinkedList();
         Node node1 = new Node(1, "John1", "jack1");
         Node node2 = new Node(2, "John2", "jack2");
         Node node3 = new Node(3, "John3", "jack3");
         Node node4 = new Node(4, "John4", "jack4");
         Node node5 = new Node(5, "John5", "jack5");
+
+        Node node6 = new Node(6, "John6", "jack6");
+        Node node7 = new Node(7, "John7", "jack7");
+        Node node8 = new Node(8, "John8", "jack8");
+        Node node9 = new Node(9, "John9", "jack9");
+        Node node10 = new Node(10, "John10", "jack10");
         try {
-            singleLinkedList.add(node1);
-            singleLinkedList.add(node2);
-            singleLinkedList.add(node3);
-            singleLinkedList.add(node4);
-            singleLinkedList.add(node5);
-            SingleLinkedList.reversePrint(singleLinkedList.getHead());
+            singleLinkedList1.addByOrder(node4);
+            singleLinkedList1.addByOrder(node2);
+            singleLinkedList2.addByOrder(node9);
+            singleLinkedList2.addByOrder(node8);
+            singleLinkedList2.addByOrder(node7);
+            singleLinkedList2.addByOrder(node6);
+            singleLinkedList1.addByOrder(node1);
+            singleLinkedList1.addByOrder(node5);
+            singleLinkedList2.addByOrder(node10);
+            singleLinkedList1.addByOrder(node3);
+            SingleLinkedList singleLinkedList = SingleLinkedList.mergeSingleLinkedList(singleLinkedList1, singleLinkedList2);
+            singleLinkedList.list();
+
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
-
     }
+}
+
+
+class SingleLinkedList {
+
 
     private Node head;
 
@@ -209,24 +229,59 @@ public class SingleLinkedList {
         head.next = reverseNode.next;
     }
 
-
-    public static void reversePrint(Node head){
-        if (head.next == null){
+    /**
+     * 反向打印
+     * 先遍历链表把元素一个个的存储到栈里，使用栈的先进后出的特点，逐步取出打印。
+     *
+     * @param head
+     */
+    public static void reversePrint(Node head) {
+        if (head.next == null) {
             throw new RuntimeException("此链表为空");
         }
 
         Stack<Node> nodeStack = new Stack<>();
         Node temp = head.next;
-        while (temp != null){
+        while (temp != null) {
             nodeStack.add(temp);
             temp = temp.next;
         }
 
-        while (nodeStack.size()>0){
+        while (nodeStack.size() > 0) {
             Node pop = nodeStack.pop();
             System.out.println(pop);
         }
     }
+
+    /**
+     * 合并两个单链表
+     * @param leftSingleLinkedList
+     * @param rightSingleLinkedList
+     * @return 合并后的单链表
+     */
+    public static SingleLinkedList mergeSingleLinkedList(SingleLinkedList leftSingleLinkedList, SingleLinkedList rightSingleLinkedList) {
+        Node leftTemp = leftSingleLinkedList.getHead().next;
+        Node rightTemp = rightSingleLinkedList.getHead().next;
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        while (true) {
+            if (leftTemp == null) {
+                break;
+            }
+            Node left = leftTemp;
+            leftTemp = leftTemp.next;
+            singleLinkedList.addByOrder(left);
+        }
+        while (true) {
+            if (rightTemp == null) {
+                break;
+            }
+            Node right = rightTemp;
+            rightTemp = rightTemp.next;
+            singleLinkedList.addByOrder(right);
+        }
+        return singleLinkedList;
+    }
+
 
 }
 
