@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class SingleLinkedList {
 
     public static void main(String[] args) {
@@ -13,12 +15,7 @@ public class SingleLinkedList {
             singleLinkedList.add(node3);
             singleLinkedList.add(node4);
             singleLinkedList.add(node5);
-            SingleLinkedList.reverse(singleLinkedList.getHead());
-            singleLinkedList.list();
-//            int length = SingleLinkedList.getLength(singleLinkedList.getHead());
-//            System.out.println("有效节点数：" + length);
-//            Node node = SingleLinkedList.getLastIndexNode(singleLinkedList.getHead(), 3);
-//            System.out.println("倒数的第"+node);
+            SingleLinkedList.reversePrint(singleLinkedList.getHead());
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -154,6 +151,7 @@ public class SingleLinkedList {
 
     /**
      * 获取链表里有效元素的个数
+     *
      * @param head 头结点
      * @return 有效元素的个数
      */
@@ -175,60 +173,59 @@ public class SingleLinkedList {
 
     /**
      * 获取倒数第K个的Node
-     * @param head 头结点
+     *
+     * @param head      头结点
      * @param lastIndex 倒数的数
      * @return 倒数的Node
      */
-    public static Node getLastIndexNode(Node head,int lastIndex){
-        if (head.next == null){
+    public static Node getLastIndexNode(Node head, int lastIndex) {
+        if (head.next == null) {
             throw new RuntimeException("此链表为空");
         }
-        if (lastIndex <= 0){
+        if (lastIndex <= 0) {
             throw new RuntimeException("倒数所有数必须大于0");
         }
         Node cur = head.next;
         for (int i = 0; i < getLength(head) - lastIndex; i++) {
-             cur = cur.next;
+            cur = cur.next;
         }
         return cur;
     }
 
-    public static void reverse(Node head){
-        if (head.next == null){
+    public static void reverse(Node head) {
+        if (head.next == null) {
             throw new RuntimeException("此链表为空");
         }
         Node reverseNode = new Node(0, "", "");
         Node cur = head.next;
         Node next = null;
-        while (cur != null){
-            //获得当前节点的下一个节点
+        int length = getLength(head);
+        for (int i = 0; i < length; i++) {
             next = cur.next;
-
-            //构建要插入节点信息 比如要设置好新节点的下一个节点位置
-
-            //设置要插入节点的下一个节点，下一个节点新链表head的下一个节点
             cur.next = reverseNode.next;
-            //在新链表里插入新的节点
             reverseNode.next = cur;
-
-            //光标指向下一个节点
             cur = next;
         }
-
-
         head.next = reverseNode.next;
-
-
     }
 
-    public static void addByHead(Node head,Node node){
-        Node nextNode = head.next;
-        if (nextNode == null){
-            head.next = node;
-            return;
+
+    public static void reversePrint(Node head){
+        if (head.next == null){
+            throw new RuntimeException("此链表为空");
         }
-        head.next = node;
-        node.next = nextNode;
+
+        Stack<Node> nodeStack = new Stack<>();
+        Node temp = head.next;
+        while (temp != null){
+            nodeStack.add(temp);
+            temp = temp.next;
+        }
+
+        while (nodeStack.size()>0){
+            Node pop = nodeStack.pop();
+            System.out.println(pop);
+        }
     }
 
 }
