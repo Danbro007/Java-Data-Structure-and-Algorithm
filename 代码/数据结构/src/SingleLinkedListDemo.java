@@ -255,8 +255,8 @@ class SingleLinkedList {
 
     /**
      * 合并两个单链表
-     * @param leftSingleLinkedList
-     * @param rightSingleLinkedList
+     * @param leftSingleLinkedList 需要合并的链表1
+     * @param rightSingleLinkedList 需要合并的链表2
      * @return 合并后的单链表
      */
     public static SingleLinkedList mergeSingleLinkedList(SingleLinkedList leftSingleLinkedList, SingleLinkedList rightSingleLinkedList) {
