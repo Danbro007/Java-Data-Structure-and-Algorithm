@@ -6,7 +6,7 @@
  */
 public class ArrayStackDemo {
     public static void main(String[] args) {
-        ArrayStack arrayStack = new ArrayStack(3);
+        ArrayStack2 arrayStack = new ArrayStack2(3);
         arrayStack.push(1);
         arrayStack.push(2);
         arrayStack.push(3);
