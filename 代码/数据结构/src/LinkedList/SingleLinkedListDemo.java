@@ -1,3 +1,5 @@
+package LinkedList;
+
 import java.util.Stack;
 
 
@@ -302,7 +304,7 @@ class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
+        return "LinkedList.Node{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 ", nickName='" + nickName + '\'' +

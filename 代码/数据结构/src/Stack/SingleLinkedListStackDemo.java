@@ -1,5 +1,7 @@
+package Stack;
+
 /**
- * @Classname SingleLinkedListStackDemo
+ * @Classname Stack.SingleLinkedListStackDemo
  * @Description TODO 用单链表来实现栈
  * @Date 2020/3/1 21:33
  * @Author Danrbo
@@ -40,7 +42,7 @@ class SingleLinkedListStack {
 
 
     public boolean isEmpty() {
-        return head.next == null;
+        return head.next  == null;
     }
 
     public boolean isFull() {
@@ -109,3 +111,29 @@ class SingleLinkedListStack {
         head.next = reverseNode.next;
     }
 }
+
+class Node {
+    public int no;
+    public String name;
+    public String nickName;
+    public Node next;
+
+
+
+    public Node(int no, String name, String nickName) {
+        this.no = no;
+        this.name = name;
+        this.nickName = nickName;
+    }
+
+
+    @Override
+    public String toString() {
+        return "LinkedList.Node{" +
+                "no=" + no +
+                ", name='" + name + '\'' +
+                ", nickName='" + nickName + '\'' +
+                '}';
+    }
+}
+

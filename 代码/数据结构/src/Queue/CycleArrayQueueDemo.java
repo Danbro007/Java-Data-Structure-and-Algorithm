@@ -1,13 +1,14 @@
+package Queue;
+
 import java.io.InputStream;
 import java.util.Scanner;
 
 /**
- * 数组模拟队列
+ * 数组模拟环形队列
  */
-public class ArrayQueueDemo {
-
+public class CycleArrayQueueDemo {
     public static void main(String[] args) {
-        ArrayQueue arrayQueue = new ArrayQueue(3);
+        CycleArrayQueue cycleArrayQueue = new CycleArrayQueue(4);
         InputStream in = System.in;
         Scanner scanner = new Scanner(in);
         boolean loop = true;
@@ -22,20 +23,20 @@ public class ArrayQueueDemo {
             try {
                 switch (key) {
                     case 's': {
-                        arrayQueue.showQueue();
+                        cycleArrayQueue.showQueue();
                         break;
                     }
                     case 'a': {
                         System.out.println("请输入要添加的元素");
-                        arrayQueue.add(scanner.nextInt());
+                        cycleArrayQueue.add(scanner.nextInt());
                         break;
                     }
                     case 'g': {
-                        System.out.println("获取元素：" + arrayQueue.get());
+                        System.out.println("获取元素：" + cycleArrayQueue.get());
                         break;
                     }
                     case 'h': {
-                        System.out.println("头元素为："+arrayQueue.showHead());
+                        System.out.println("头元素为：" + cycleArrayQueue.showHead());
 
                         break;
                     }
@@ -50,29 +51,26 @@ public class ArrayQueueDemo {
         }
         System.out.println("退出程序");
         scanner.close();
-
     }
-
-
 }
 
-
-class ArrayQueue {
+class CycleArrayQueue {
     private int maxSize;
     private int front;
     private int rear;
     private int[] arr;
 
-    public ArrayQueue(int maxSize) {
+    public CycleArrayQueue(int maxSize) {
         this.maxSize = maxSize;
         arr = new int[this.maxSize];
-        front = -1;
-        rear = -1;
+        //front和rear都指向索引为0的位置
+        front = 0;
+        rear = 0;
     }
 
 
     public boolean isFull() {
-        return rear == maxSize -1;
+        return (rear + 1) % maxSize == front;
     }
 
     public boolean isEmpty() {
@@ -83,8 +81,8 @@ class ArrayQueue {
         if (isFull()) {
             throw new RuntimeException("队列已满");
         }
-        rear++;
         arr[rear] = n;
+        rear = (rear + 1) % maxSize;
     }
 
 
@@ -92,8 +90,9 @@ class ArrayQueue {
         if (isEmpty()) {
             throw new RuntimeException("队列已空");
         }
-        front++;
-        return arr[front];
+        int value = arr[front];
+        front = (front + 1) % maxSize;
+        return value;
     }
 
 
@@ -101,15 +100,19 @@ class ArrayQueue {
         if (isEmpty()) {
             throw new RuntimeException("队列已空");
         }
-        return arr[front+1];
+        return arr[front];
     }
 
     public void showQueue() {
         if (isEmpty()) {
             throw new RuntimeException("队列已空");
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("arr[" + i + "]" + arr[i]);
+        for (int i = front; i < front + showNum(); i++) {
+            System.out.println("arr[" + i % maxSize + "]" + arr[i % maxSize]);
         }
+    }
+
+    public int showNum() {
+        return (rear + maxSize - front) % maxSize;
     }
 }

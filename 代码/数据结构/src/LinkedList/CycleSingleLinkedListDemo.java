@@ -1,5 +1,7 @@
+package LinkedList;
+
 /**
- * @Classname CycleSingleLinkedListDemo
+ * @Classname LinkedList.CycleSingleLinkedListDemo
  * @Description TODO 单向环形链表的使用
  * @Date 2020/3/1 13:36
  * @Author Danrbo
@@ -174,7 +176,7 @@ class Node3 {
 
     @Override
     public String toString() {
-        return "Node3{" +
+        return "LinkedList.Node3{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';
