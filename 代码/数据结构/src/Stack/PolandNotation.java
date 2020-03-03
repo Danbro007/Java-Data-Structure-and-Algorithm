@@ -167,6 +167,9 @@ class Operation {
                 break;
             case "-":
                 res = SUB;
+                break;
+            default:
+                break;
         }
         return res;
     }
