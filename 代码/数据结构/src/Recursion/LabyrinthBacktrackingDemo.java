@@ -49,7 +49,7 @@ public class LabyrinthBacktrackingDemo {
      *      1 表示是围墙 不能通行
      *      2 表示可以通行，既迷宫的行径路线
      *      3 表示已经走过但是不能通行
-     * 行走逻辑：下->右->上->左
+     * 行走策略：下->右->上->左
      *
      * @param map 迷宫
      * @param i   当前点的横坐标

@@ -58,11 +58,12 @@ public class PolandNotation {
     public static int calculate(List<String> list) {
         Stack<String> stack = new Stack<>();
         for (String s : list) {
-            //正则匹配多位数字
+            //正则匹配多位数字然后压入栈内
             if (s.matches("\\d+")) {
                 stack.push(s);
             } else {
                 int res = 0;
+                //从栈里里弹出两个值然后进行计算，计算结果再压入栈内
                 int num1 = Integer.parseInt(stack.pop());
                 int num2 = Integer.parseInt(stack.pop());
                 if ("+".equals(s)) {
