@@ -17,6 +17,7 @@ public class Test {
         getEfficiency(new InsertSort());
         getEfficiency(new ShellSort());
         getEfficiency(new ShellSort2());
+        getEfficiency(new QuickSort());
 
     }
 
