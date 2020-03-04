@@ -28,8 +28,9 @@ public class SelectSort implements Algorithm {
         for (int i = 0; i < array.length - 1; i++) {
             //暂定当前值的索引是最小值的索引
             int minIndex = i;
+            //暂定最小值
             int min = array[i];
-            //遍历当前值之后的所有元素,获得最小值的索引
+            //遍历当前值之后的所有元素,获得最小值和其索引
             for (int j = i + 1; j < array.length; j++) {
                 if (min > array[j]) {
                     minIndex = j;
