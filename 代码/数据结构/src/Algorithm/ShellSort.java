@@ -11,11 +11,15 @@ import java.util.Date;
  */
 public class ShellSort implements Algorithm {
 
-    public static void main(String[] args) {
+    private String name = "希尔排序-交换方法";
+
+    @Override
+    public String getName() {
+        return name;
     }
 
-
-    public static void shellSort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         int temp;
         //确定步长，比如一个数组{8, 9, 1, 7, 2, 3, 5, 4, 6, 0}有十个元素，
         //第一次步长为10 / 2 = 5，既有5组 每组有2个元素{8,3},{9,5}{1,4} {7,6} {2,0}
@@ -48,31 +52,24 @@ public class ShellSort implements Algorithm {
         }
     }
 
-    @Override
-    public void getEfficiency() {
-        int[] array = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            array[i] = (int) Math.random() * 80000;
-        }
-        Date start1 = new Date();
-        SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("开始希尔排序-交换方法:" + format.format(start1));
-        shellSort(array);
-        Date end = new Date();
-        SimpleDateFormat format2 = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("希尔排序-交换方法结束:" + format.format(end));
-
-    }
 }
 
 
 class ShellSort2 implements Algorithm {
+    private String name = "希尔排序-移位方法";
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
     /**
      * 使用移位法
      *
      * @param array 要排序的数组
      */
-    public static void shellSort2(int[] array) {
+    @Override
+    public void sort(int[] array) {
         for (int gap = array.length / 2; gap > 0; gap /= 2) {
             for (int i = gap; i < array.length; i++) {
                 //当前要比较的元素索引
@@ -91,21 +88,5 @@ class ShellSort2 implements Algorithm {
             }
 
         }
-    }
-
-
-    @Override
-    public void getEfficiency() {
-        int[] array2 = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            array2[i] = (int) Math.random() * 80000;
-        }
-        Date start2 = new Date();
-        SimpleDateFormat format3 = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("开始希尔排序-移位方法:" + format3.format(start2));
-        shellSort2(array2);
-        Date end2 = new Date();
-        SimpleDateFormat format4 = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("希尔排序-移位方法结束:" + format4.format(end2));
     }
 }

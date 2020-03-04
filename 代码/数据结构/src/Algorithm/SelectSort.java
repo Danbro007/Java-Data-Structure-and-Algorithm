@@ -10,15 +10,18 @@ import java.util.Date;
  * @Date 2020/3/3 14:56
  * @Author Danrbo
  */
-public class SelectSort implements Algorithm{
+public class SelectSort implements Algorithm {
 
-    public static void main(String[] args) {
-        int[] array = {3, 9, -10, 10, 20};
-        selectSort(array);
-        System.out.println(Arrays.toString(array));
+
+    private String name = "选择排序";
+
+    @Override
+    public String getName() {
+        return name;
     }
 
-    public static void selectSort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         //例如 一共有5个数据 只要确定4个数据的排序 最后一个不用再次排序
         for (int i = 0; i < array.length - 1; i++) {
             //暂定当前值的索引是最小值的索引
@@ -39,19 +42,4 @@ public class SelectSort implements Algorithm{
         }
     }
 
-
-    @Override
-    public void getEfficiency() {
-        int[] array = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            array[i] = (int) Math.random() * 80000;
-        }
-        Date start1 = new Date();
-        SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("选择排序开始:" + format.format(start1));
-        selectSort(array);
-        Date end = new Date();
-        SimpleDateFormat format2 = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("选择排序结束:" + format2.format(end));
-    }
 }

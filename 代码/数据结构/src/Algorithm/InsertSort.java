@@ -10,18 +10,14 @@ import java.util.Date;
  * @Date 2020/3/3 20:00
  * @Author Danrbo
  */
-public class InsertSort implements Algorithm{
-    public static void main(String[] args) {
-        int[] array = {3, 9, -10, 10, 20};
-        insertSort(array);
-        System.out.println(Arrays.toString(array));
-    }
+public class InsertSort implements Algorithm {
+    private String name = "插入排序";
 
     /**
-     *
      * @param array 需要排序的数组
      */
-    public static void insertSort(int[] array) {
+    @Override
+    public void sort(int[] array) {
         //从数组第二个元素开始遍历
         for (int i = 1; i < array.length; i++) {
             //要插入的元素
@@ -46,17 +42,9 @@ public class InsertSort implements Algorithm{
     }
 
     @Override
-    public void getEfficiency() {
-        int[] array = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            array[i] = (int) Math.random() * 80000;
-        }
-        Date start1 = new Date();
-        SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("插入排序开始:" + format.format(start1));
-        insertSort(array);
-        Date end = new Date();
-        SimpleDateFormat format2 = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("插入排序结束:" + format2.format(end));
+    public String getName() {
+        return this.name;
     }
+
+
 }
