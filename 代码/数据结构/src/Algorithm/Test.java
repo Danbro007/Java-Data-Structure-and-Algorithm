@@ -1,6 +1,7 @@
 package Algorithm;
 
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -21,10 +22,9 @@ public class Test {
 
 
     public static void getEfficiency(Algorithm algorithm) {
-
         int[] array = new int[80000];
         for (int i = 0; i < 80000; i++) {
-            array[i] = (int) Math.random() * 80000;
+            array[i] = (int) (Math.random() * 80000);
         }
         Date start1 = new Date();
         SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
