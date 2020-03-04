@@ -1,6 +1,8 @@
 package Algorithm;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @Classname SelectSort
@@ -8,7 +10,7 @@ import java.util.Arrays;
  * @Date 2020/3/3 14:56
  * @Author Danrbo
  */
-public class SelectSort {
+public class SelectSort implements Algorithm{
 
     public static void main(String[] args) {
         int[] array = {3, 9, -10, 10, 20};
@@ -38,4 +40,18 @@ public class SelectSort {
     }
 
 
+    @Override
+    public void getEfficiency() {
+        int[] array = new int[80000];
+        for (int i = 0; i < 80000; i++) {
+            array[i] = (int) Math.random() * 80000;
+        }
+        Date start1 = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
+        System.out.println("选择排序开始:" + format.format(start1));
+        selectSort(array);
+        Date end = new Date();
+        SimpleDateFormat format2 = new SimpleDateFormat("HH:mm:ss");
+        System.out.println("选择排序结束:" + format2.format(end));
+    }
 }
