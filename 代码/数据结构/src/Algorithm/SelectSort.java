@@ -22,6 +22,27 @@ public class SelectSort implements Algorithm {
         return name;
     }
 
+    /**
+     * n个元素，一个个的遍历 n - 1次比较，最后一个不用比较因为他是最大的
+     * 例如:{3, 1, 5, 6, 4, 8, 7, 0, 9, 2}
+     * 第一次遍历：
+     *          i = 0,min = 3 ,minIndex = 0 ------> 发现 0 是最小值，它的索引为 7
+     *          此时的min = 0 minIndex = 7
+     *          遍历结束，交换位置------>{0, 1, 5, 6, 4, 8, 7, 3, 9, 2}
+     * 第二次遍历：
+     *          i = 1，min = 1,minIndex = 1------>发现 1 是最小值，它的索引为 1
+     *          此时的min = 1 minIndex = 1
+     *          遍历结束，由于minIndex = i ，不用交换位置------>{0, 1, 5, 6, 4, 8, 7, 3, 9, 2}
+     * 第三次遍历：
+     *          i = 2, min = 2 ,minIndex = 5------> 发现 2 是最小值 ，它的索引为 9
+     *          此时的min = 2 minIndex = 9
+     *          遍历结束，交换位置------>{0, 1, 2, 6, 4, 8, 7, 3, 9, 5}
+     *
+     *  。。。。。。。。
+     *
+     * 第九次遍历结束：
+     *          {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+     */
     @Override
     public void sort(int[] array) {
         //例如 一共有5个数据 只要确定4个数据的排序 最后一个不用再次排序
@@ -37,7 +58,7 @@ public class SelectSort implements Algorithm {
                     min = array[j];
                 }
             }
-            //位置交换
+            //如果最小值有变化则交换位置
             if (minIndex != i) {
                 array[minIndex] = array[i];
                 array[i] = min;
