@@ -18,6 +18,7 @@ public class Test {
         getEfficiency(new ShellSort());
         getEfficiency(new ShellSort2());
         getEfficiency(new QuickSort());
+        getEfficiency(new MergeSort());
 
     }
 

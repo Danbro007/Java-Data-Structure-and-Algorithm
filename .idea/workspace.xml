@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/代码/数据结构/src/LinkedList/SingleLinkedListDemo.java" description="class Node {&#10;" line="290" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="修改选择排序的bug">
+    <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/SelectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +22,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="160">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1319">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="e#1411#1412#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -39,9 +59,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pri</find>
+      <find>hh</find>
+      <find>mer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,10 +90,24 @@
         <option value="$PROJECT_DIR$/代码/数据结构/src/DoubleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/SingleLinkedListDemo.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test3.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/JosephuTest.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/CycleSingleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/SingleLinkedListStackDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/InfixExpressionDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/ArrayStackDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Stack/SingleLinkedListStackDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Recursion/LabyrinthBacktrackingDemo.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Stack/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Recursion/Queen8.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Algorithm.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/InsertSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/ShellSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/MergeSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java" />
       </list>
     </option>
   </component>
@@ -90,10 +132,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="y" value="99" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="930" />
+    <option name="y" value="91" />
+    <option name="width" value="1770" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -104,53 +146,70 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="ShellSort.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="SingleLinkedListDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +224,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,10 +243,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
-    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoubleLinkedListDemo" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BubbleSort" />
       <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.MergeSort" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -205,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.SelectSort" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Test" />
       <module name="数据结构" />
       <extension name="coverage">
         <pattern>
@@ -231,26 +309,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Test3" />
-      <module name="数据结构" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectSort" />
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.DoubleLinkedListDemo" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -269,67 +334,150 @@
       <workItem from="1582765983674" duration="18640000" />
       <workItem from="1582857720015" duration="16116000" />
       <workItem from="1582875934081" duration="1527000" />
+      <workItem from="1583037285328" duration="31929000" />
+      <workItem from="1583139354375" duration="4646000" />
+      <workItem from="1583150002305" duration="1814000" />
+      <workItem from="1583152059475" duration="304000" />
+      <workItem from="1583200724423" duration="14366000" />
+      <workItem from="1583236811665" duration="1015000" />
+      <workItem from="1583287198560" duration="19214000" />
+      <workItem from="1583375075704" duration="7604000" />
     </task>
-    <task id="LOCAL-00001" summary="修改快速排序的注释">
-      <created>1583313485329</created>
+    <task id="LOCAL-00001" summary="添加栈和单向循环链表">
+      <created>1583048307745</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1583313485329</updated>
+      <updated>1583048307747</updated>
     </task>
-    <task id="LOCAL-00002" summary="修改选择排序的bug">
-      <created>1583316802466</created>
+    <task id="LOCAL-00002" summary="添加用单向链表来实现栈的功能">
+      <created>1583114803200</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1583316802466</updated>
+      <updated>1583114803200</updated>
     </task>
-    <task id="LOCAL-00003" summary="修改选择排序的bug">
-      <created>1583317008695</created>
+    <task id="LOCAL-00003" summary="通过中缀表达式来实现计算器功能">
+      <created>1583127021203</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1583317008695</updated>
+      <updated>1583127021203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改逆波兰表达式的实现方式">
+      <created>1583152294664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583152294664</updated>
+    </task>
+    <task id="LOCAL-00005" summary="用递归解决迷宫回溯问题">
+      <created>1583203547265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583203547265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="用递归回溯解决八皇后问题">
+      <created>1583213137538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583213137538</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加冒泡排序和选择排序算法">
+      <created>1583219948238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583219948238</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加希尔排序">
+      <created>1583296394229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583296394229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加了个算法接口，算法继承这个接口，方便之后的集中测试算法效率。">
+      <created>1583297433206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583297433206</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改Test类里的geEfficiency方法里生成随机数都为0的bug">
+      <created>1583298342430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583298342430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50186000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="133829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30916846" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18627451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.329718" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27114967" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30802602" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.7033748" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.05856833" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.44468546" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5346359" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5012126" side_tool="true" weight="0.48134992" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32983023" />
+      <window_info anchor="right" id="Debug" order="11" sideWeight="0.4995958" side_tool="true" visible="true" weight="0.11641067" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31123686" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.23268206" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.1616341" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.05856833" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,8 +488,8 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
-    </layout>
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32983023" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -381,59 +529,107 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改快速排序的注释" />
-    <MESSAGE value="修改选择排序的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改选择排序的bug" />
+    <MESSAGE value="添加栈和单向循环链表" />
+    <MESSAGE value="添加用单向链表来实现栈的功能" />
+    <MESSAGE value="通过中缀表达式来实现计算器功能" />
+    <MESSAGE value="修改逆波兰表达式的实现方式" />
+    <MESSAGE value="用递归解决迷宫回溯问题" />
+    <MESSAGE value="用递归回溯解决八皇后问题" />
+    <MESSAGE value="添加冒泡排序和选择排序算法" />
+    <MESSAGE value="添加希尔排序" />
+    <MESSAGE value="添加了个算法接口，算法继承这个接口，方便之后的集中测试算法效率。" />
+    <MESSAGE value="修改Test类里的geEfficiency方法里生成随机数都为0的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改Test类里的geEfficiency方法里生成随机数都为0的bug" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/MergeSort.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByPackageRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Data_Structure_and_Algorithm$CycleSingleLinkedListDemo.ic" NAME="CycleSingleLinkedListDemo Coverage Results" MODIFIED="1583042930040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$SingleLinkedList.ic" NAME="SingleLinkedList Coverage Results" MODIFIED="1582867585282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>minIndex</expression-string>
+        <expression-string>right</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>leftSingleLinkedList</expression-string>
+        <expression-string>index</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>temp</expression-string>
+        <expression-string>midValue &lt;= arr[j]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>min</expression-string>
+        <expression-string>newList</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>left.next</expression-string>
+        <expression-string>s2.size()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>singleLinkedList</expression-string>
+        <expression-string>s2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cur.next</expression-string>
+        <expression-string>s2.</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>nextNode</expression-string>
+        <expression-string>oper</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>reverseNode</expression-string>
+        <expression-string>getPriority(s)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -463,63 +659,263 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/SingleLinkedList2.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/CycleArrayQueueDemo.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/ArrayQueueDemo.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/SparseArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/数据结构.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/SingleLinkedListDemo.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/DoubleLinkedListDemo.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/ShellSort.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/JosephuTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="378" column="37" selection-start-line="378" selection-start-column="37" selection-end-line="378" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/LinkedList/DoubleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="171">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test3.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="32" />
+        <state relative-caret-position="85">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/InsertSort.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="117">
+          <caret line="373" column="23" selection-start-line="373" selection-start-column="23" selection-end-line="373" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Stack/SingleLinkedListStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="2260">
+          <caret line="117" column="27" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+          <folding>
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Stack/InfixExpressionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3500">
+          <caret line="179" column="5" selection-start-line="172" selection-start-column="3" selection-end-line="179" selection-end-column="5" />
+          <folding>
+            <element signature="e#4986#4987#0" expanded="true" />
+            <element signature="e#5053#5054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/LinkedList/CycleSingleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="142" column="6" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Stack/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="166" column="26" selection-end-line="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getListFromString#0;class#PolandNotation#0" />
+            <element signature="method#getListFromString#0;class#PolandNotation#0" />
+            <element signature="docComment;method#calculate#0;class#PolandNotation#0" />
+            <element signature="docComment;method#toInfixExpress#0;class#PolandNotation#0" />
+            <element signature="method#toInfixExpress#0;class#PolandNotation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/SparseArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Recursion/LabyrinthBacktrackingDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Queue/ArrayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Queue/CycleArrayQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37820">
+          <caret line="1962" column="18" selection-start-line="1962" selection-start-column="18" selection-end-line="1962" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Stack/ArrayStackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Recursion/Queen8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/logging/SimpleFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2097" column="52" selection-start-line="2097" selection-start-column="50" selection-end-line="2097" selection-end-column="52" />
+          <folding>
+            <element signature="e#23443#23444#0" expanded="true" />
+            <element signature="e#23515#23516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="741" column="9" lean-forward="true" selection-start-line="740" selection-start-column="28" selection-end-line="741" selection-end-column="9" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+            <element signature="e#49043#49044#0" expanded="true" />
+            <element signature="e#49082#49083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="707" column="46" lean-forward="true" selection-start-line="707" selection-start-column="46" selection-end-line="707" selection-end-column="46" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="-355">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/LinkedList/SingleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="252" column="39" lean-forward="true" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
+          <folding>
+            <element signature="method#del#0;class#SingleLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1319">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="13" />
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="13" />
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
