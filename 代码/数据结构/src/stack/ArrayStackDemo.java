@@ -1,7 +1,7 @@
-package Stack;
+package stack;
 
 /**
- * @Classname Stack.ArrayStackDemo
+ * @Classname stack.ArrayStackDemo
  * @Description TODO
  * @Date 2020/3/1 15:22
  * @Author Danrbo

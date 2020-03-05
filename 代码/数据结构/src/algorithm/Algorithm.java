@@ -1,7 +1,7 @@
-package Algorithm;
+package algorithm;
 
 /**
- * @Classname Algorithm
+ * @Classname algorithm
  * @Description TODO 算法继承的接口,方便测试。
  * @Date 2020/3/4 12:20
  * @Author Danrbo

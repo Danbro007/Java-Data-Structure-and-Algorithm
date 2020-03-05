@@ -1,7 +1,7 @@
-package Stack;
+package stack;
 
 /**
- * @Classname Stack.SingleLinkedListStackDemo
+ * @Classname stack.SingleLinkedListStackDemo
  * @Description TODO 用单链表来实现栈
  * @Date 2020/3/1 21:33
  * @Author Danrbo
