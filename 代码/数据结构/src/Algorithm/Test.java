@@ -1,7 +1,6 @@
 package Algorithm;
 
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -19,6 +18,7 @@ public class Test {
         getEfficiency(new ShellSort2());
         getEfficiency(new QuickSort());
         getEfficiency(new MergeSort());
+        getEfficiency(new RadixSort());
 
     }
 
