@@ -8,13 +8,13 @@ package search;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] array = {1,2,3,4,5,6,7,8,9};
-        int res = binarySearch(array, 0, array.length, 13);
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int res = binarySearch(array, 0, array.length - 1, 13);
         System.out.println(res);
     }
 
     public static int binarySearch(int[] array, int left, int right, int findValue) {
-        if (left >= right) {
+        if (left >= right || findValue < array[left] || findValue > array[right]) {
             return -1;
         }
         int mid = (left + right) / 2;

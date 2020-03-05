@@ -7,53 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/代码/数据结构/src/LinkedList/SingleLinkedListDemo.java" description="class Node {&#10;" line="290" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="添加基数排序算法">
+    <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Algorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/SelectSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/ShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/ShellSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/ShellSort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/ArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/ArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/CycleArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/CycleArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/CycleArrayQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Queue/CycleArrayQueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Recursion/LabyrinthBacktrackingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Recursion/LabyrinthBacktrackingDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Recursion/Queen8.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Recursion/Queen8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/ArrayStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/InfixExpressionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/InfixExpressionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/PolandNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/PolandNotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/SingleLinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/SingleLinkedListStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/SingleLinkedListStackDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Stack/SingleLinkedListStackDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Queue/CycleArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/queue/CycleArrayQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Recursion/LabyrinthBacktrackingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/recursion/LabyrinthBacktrackingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Recursion/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/recursion/Queen8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Stack/ArrayStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/stack/ArrayStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Stack/InfixExpressionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/stack/InfixExpressionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Stack/PolandNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/stack/PolandNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/Stack/SingleLinkedListStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/stack/SingleLinkedListStackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,20 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="160">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySeach2.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="80">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -155,8 +108,9 @@
         <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/RadixSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/RadixSort.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySeach2.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java" />
       </list>
     </option>
   </component>
@@ -267,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySeach2">
+  <component name="RunManager" selected="Application.InsertValueSearch">
     <configuration name="BinarySeach2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySeach2" />
       <module name="数据结构" />
@@ -283,6 +237,19 @@
     </configuration>
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
       <module name="数据结构" />
       <extension name="coverage">
         <pattern>
@@ -320,26 +287,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Test2" />
-      <module name="数据结构" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySeach2" />
+        <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.BinarySeach2" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +320,7 @@
       <workItem from="1583236811665" duration="1015000" />
       <workItem from="1583287198560" duration="19214000" />
       <workItem from="1583375075704" duration="15438000" />
-      <workItem from="1583409196761" duration="1917000" />
+      <workItem from="1583409196761" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="添加栈和单向循环链表">
       <created>1583048307745</created>
@@ -459,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583393040265</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加二分查找法">
+      <created>1583411342210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583411342210</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143580000" />
+    <option name="totallyTimeSpent" value="145733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -478,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.053285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.23090586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.15808171" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3285968" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -489,7 +450,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.5346359" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5012126" side_tool="true" weight="0.48134992" />
-      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.4995958" weight="0.053285968" />
+      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.4995958" weight="0.1740675" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
@@ -603,7 +564,8 @@
     <MESSAGE value="修改Test类里的geEfficiency方法里生成随机数都为0的bug" />
     <MESSAGE value="添加归并排序算法" />
     <MESSAGE value="添加基数排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加基数排序算法" />
+    <MESSAGE value="添加二分查找法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加二分查找法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,10 +577,10 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySeach2.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java</url>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -636,6 +598,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>array[right]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[left]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mid</expression-string>
         <language-id>JAVA</language-id>
@@ -663,21 +640,6 @@
       </expression>
       <expression>
         <expression-string>array[index]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>right</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>midValue &lt;= arr[j]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -994,20 +956,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySeach2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="137">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
