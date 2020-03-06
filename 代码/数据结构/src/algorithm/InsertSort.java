@@ -1,5 +1,7 @@
 package algorithm;
 
+import java.util.Arrays;
+
 /**
  * @Classname InsertSort
  * @Description TODO 插入排序
@@ -7,6 +9,13 @@ package algorithm;
  * @Author Danrbo
  */
 public class InsertSort implements Algorithm {
+    public static void main(String[] args) {
+        int[] array = {101, 34, 119, 1};
+        new InsertSort().sort(array);
+        System.out.println(Arrays.toString(array));
+    }
+
+
     private String name = "插入排序";
 
     /**

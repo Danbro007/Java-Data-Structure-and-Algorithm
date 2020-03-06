@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Classname BinarySeach2
+ * @Classname BinarySearch2
  * @Description TODO 二分查找 找到指定元素在数组里的所有位置
  * @Date 2020/3/5 20:05
  * @Author Danrbo
  */
-public class BinarySeach2 {
+public class BinarySearch2 {
 
     public static void main(String[] args) {
         int[] array = {1, 1, 1, 3, 5, 6, 7, 8, 9};

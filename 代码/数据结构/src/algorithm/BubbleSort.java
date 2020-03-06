@@ -1,5 +1,7 @@
 package algorithm;
 
+import java.util.Arrays;
+
 /**
  * @Classname BubbleSort
  * @Description TODO 冒泡排序
@@ -7,6 +9,13 @@ package algorithm;
  * @Author Danrbo
  */
 public class BubbleSort implements Algorithm {
+    public static void main(String[] args) {
+        int[] array = {3, 9, -1, 10, -2};
+        new BubbleSort().sort(array);
+        System.out.println(Arrays.toString(array));
+    }
+
+
     private String name = "冒泡排序";
 
     @Override
@@ -44,5 +53,4 @@ public class BubbleSort implements Algorithm {
             }
         }
     }
-
 }

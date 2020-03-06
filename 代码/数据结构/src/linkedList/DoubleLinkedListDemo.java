@@ -1,4 +1,4 @@
-package LinkedList;
+package linkedList;
 
 public class DoubleLinkedListDemo {
     public static void main(String[] args) {
@@ -161,7 +161,7 @@ class Node2 {
 
     @Override
     public String toString() {
-        return "LinkedList.Node{" +
+        return "linkedList.Node{" +
                 "no=" + no +
                 ", name='" + name + '\'' +
                 ", nickName='" + nickName + '\'' +
