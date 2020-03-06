@@ -10,17 +10,19 @@ public class MyHashTable {
         this.array = new EmpLinkedList[size];
         for (int i = 0; i < array.length; i++) {
             array[i] = new EmpLinkedList();
-
         }
     }
 
-    private int hash(Emp emp) {
-        return emp.id % size;
+    private int hash(int id) {
+        return id % size;
     }
     public void put(Emp emp){
-        array[hash(emp)].add(emp);
+        array[hash(emp.id)].add(emp);
     }
 
+    public Emp findEmpById(int id){
+        return array[hash(id)].findEmpById(id);
+    }
     public void list(){
         for (int i = 0; i < array.length; i++) {
             System.out.println("第" + i + "数组：");
@@ -36,7 +38,12 @@ public class MyHashTable {
         myhashTable.put(emp);
         myhashTable.put(emp2);
         myhashTable.put(emp3);
-        myhashTable.list();
+        Emp empById = myhashTable.findEmpById(11);
+        if (empById != null){
+            System.out.println("找到：" + empById);
+        }else {
+            System.out.println("没找到");
+        }
     }
 
 
@@ -59,10 +66,9 @@ class EmpLinkedList {
         }
     }
 
-
     public void list() {
         if (head == null){
-            System.out.println("空");
+            System.out.println("空链表");
             return;
         }
         Emp temp = head;
@@ -70,7 +76,26 @@ class EmpLinkedList {
             System.out.println(temp);
             temp = temp.next;
         }
+    }
 
+    public Emp findEmpById(int id){
+        if (head == null){
+            System.out.println("空");
+            return null;
+        }
+        Emp cur = head;
+        boolean flag = false;
+        while (cur != null){
+            if (cur.id == id){
+                flag = true;
+                break;
+            }
+            cur = cur.next;
+        }
+        if (flag){
+            return cur;
+        }
+        return null;
     }
 
 }
