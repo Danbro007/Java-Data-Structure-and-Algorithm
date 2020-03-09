@@ -10,9 +10,9 @@ public class InsertValueSearch {
 
     private static int COUNT = 0;
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] array = {1, 8, 10, 89, 1000, 1234};
         int i = insertValueSearch(array, 0, array.length - 1, 1);
-        System.out.println(COUNT);
+        System.out.println(i);
     }
 
     public static int insertValueSearch(int[] array, int left, int right, int findValue) {

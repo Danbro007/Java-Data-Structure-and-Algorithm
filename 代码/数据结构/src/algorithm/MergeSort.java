@@ -49,7 +49,7 @@ public class MergeSort implements Algorithm {
      *      left = 0,right = 1
      *      i = 0 ,mid = 0 ,j = mid + 1 = 1，index = 0;
      *      array[0] = 9 和 array[1] = 1 ,
-     *      比较好后放到temp数组里 temp[0] = 1,temp[1] = 9,此时的 i = 0+1 = 1,j = 1 + 1 = 2,index = 2
+     *      比较好后放到temp数组里 temp[0] = 1,temp[1] = 9,此时的 i = 0 + 1 = 1,j = 1 + 1 = 2,index = 2
      *      把index  = 0，tempLeft = left = 0, right = 1,while循环 tempLeft <= right,
      *      temp = {1,9,0,0,0,0,0,0,0,0}
      *      第一次while循环----->array[0] = temp[0],tempLeft = 0 + 1 = 1,index = 0 + 1 = 1;
@@ -79,7 +79,7 @@ public class MergeSort implements Algorithm {
      *      tempLeft = left = 3 、right = 4
      *      第一次while循环----->array[3] = temp[0],tempLeft = 3 + 1 = 4,index = 0 + 1 = 1;
      *              {1, 4, 9, 2, 8, 6, 3, 5, 7, 0}
-     *      第二次while循环----->array[4] = temp[1] ,tempLeft = 1 + 1 = 2,index = 1 + 1 = 2,
+     *      第二次while循环----->array[4] = temp[1] ,tempLeft = 4 + 1 = 5,index = 1 + 1 = 2,
      *             {1, 4, 9, 2, 8, 6, 3, 5, 7, 0}
      * 第四次比较合并：
      *       {1, 4, 9, 2, 8, 6, 3, 5, 7, 0}
@@ -127,7 +127,8 @@ public class MergeSort implements Algorithm {
         }
         index = 0;
         int tempLeft = left;
-        //有序的在temp数组里
+        //有序的在temp数组里 tempLeft是temp里每个数组里的起始位置元素的索引位置，
+        // 每天添加一个元素就加一
         //重新排序right和right之前的数组的所有元素
         while (tempLeft <= right){
             array[tempLeft] = temp[index];

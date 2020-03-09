@@ -9,10 +9,18 @@
   <component name="ChangeListManager">
     <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/Algorithm/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,22 +34,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4020">
-              <caret line="207" selection-start-line="207" selection-end-line="211" selection-end-column="32" />
+            <state relative-caret-position="-327">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" selection-end-column="72" />
               <folding>
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1510#1511#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="61" selection-start-line="61" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
+                <element signature="e#2062#2063#0" expanded="true" />
+                <element signature="e#2101#2102#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+                <element signature="e#2164#2165#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2229#2230#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2319#2320#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2393#2394#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +143,7 @@
       <find>modco</find>
       <find>list</find>
       <find>infix</find>
+      <find>tempLeft</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,21 +186,26 @@
         <option value="$PROJECT_DIR$/代码/数据结构/src/Algorithm/Test.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/RadixSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySeach2.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test3.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/BubbleSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/InsertSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/hashtab/MyHashTable.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/ThreadedBinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort1.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/search/OrderSearch.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManTree.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java" />
       </list>
     </option>
   </component>
@@ -146,8 +230,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="165" />
+    <option name="y" value="165" />
     <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
@@ -160,6 +244,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,7 +276,7 @@
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="huffManTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -199,40 +284,13 @@
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="threadedBinaryTreeDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="threadedBinaryTreeDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadedBinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="huffManTree" type="462c0819:PsiDirectoryNode" />
+              <item name="HuffManTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,20 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
-      <module name="数据结构" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.threadedBinaryTreeDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HuffManCoding">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.HeapSort" />
       <module name="数据结构" />
@@ -294,8 +339,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.HeapSort" />
+    <configuration name="HuffManCoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffManTree.HuffManCoding" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huffManTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuffManTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huffManTree.HuffManTree" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huffManTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.OrderSearch" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Test" />
       <module name="数据结构" />
       <extension name="coverage">
         <pattern>
@@ -307,25 +391,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtab.MyHashTable" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Test2" />
       <module name="数据结构" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadedBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.threadedBinaryTreeDemo.ThreadedBinaryTree" />
-      <module name="数据结构" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.threadedBinaryTreeDemo.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,9 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.ThreadedBinaryTree" />
+        <item itemvalue="Application.HuffManCoding" />
+        <item itemvalue="Application.HuffManTree" />
+        <item itemvalue="Application.OrderSearch" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +440,7 @@
       <workItem from="1583409196761" duration="19024000" />
       <workItem from="1583633743573" duration="20339000" />
       <workItem from="1583666733378" duration="4604000" />
-      <workItem from="1583719578040" duration="2370000" />
+      <workItem from="1583719578040" duration="16985000" />
     </task>
     <task id="LOCAL-00001" summary="添加栈和单向循环链表">
       <created>1583048307745</created>
@@ -502,17 +575,24 @@
       <option name="project" value="LOCAL" />
       <updated>1583585303810</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加堆排序算法">
+      <created>1583722172181</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583722172181</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204740000" />
+    <option name="totallyTimeSpent" value="219355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3160873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23201293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,8 +601,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.053285968" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" visible="true" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.053285968" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.053285968" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -618,7 +698,8 @@
     <MESSAGE value="添加二叉树的遍历、添加、删除功能" />
     <MESSAGE value="添加数组存储二叉树的前序、中序、后序遍历" />
     <MESSAGE value="添加线索化二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加线索化二叉树" />
+    <MESSAGE value="添加堆排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加堆排序算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,15 +795,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="81" column="57" selection-start-line="81" selection-start-column="57" selection-end-line="81" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/SingleLinkedList2.java" />
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/JosephuTest.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,33 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/数据结构.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -962,27 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -990,56 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/RadixSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding>
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="3288" lean-forward="true" selection-start-line="3288" selection-end-line="3288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="142" column="24" lean-forward="true" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1069,9 +1047,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/权限/图解Java数据结构和算法-尚硅谷-韩顺平/代码/DataStructures/src/com/atguigu/tree/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="96" lean-forward="true" selection-start-line="6" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="133" column="42" lean-forward="true" selection-start-line="133" selection-start-column="42" selection-end-line="133" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="207" selection-start-line="207" selection-end-line="211" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/RadixSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="96" column="20" lean-forward="true" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="133" column="11" lean-forward="true" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="38" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
+        <state relative-caret-position="1373">
           <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
           <folding>
             <element signature="e#625#626#0" expanded="true" />
@@ -1080,17 +1149,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/OrderSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="40">
+          <caret line="2" column="3" lean-forward="true" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="428" column="39" selection-start-line="428" selection-start-column="39" selection-end-line="428" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+        <state relative-caret-position="101">
+          <caret line="172" column="7" lean-forward="true" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
           <folding>
             <element signature="method#preOrderSearch#0;class#Node#0" />
             <element signature="method#infixOrderSearch#0;class#Node#0" />
@@ -1099,27 +1175,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/权限/图解Java数据结构和算法-尚硅谷-韩顺平/代码/DataStructures/src/com/atguigu/tree/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="96" lean-forward="true" selection-start-line="6" selection-end-line="96" />
+        <state relative-caret-position="-327">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4020">
-          <caret line="207" selection-start-line="207" selection-end-line="211" selection-end-column="32" />
+        <state relative-caret-position="143">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="74" selection-start-line="74" selection-end-line="74" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="61" selection-start-line="61" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2062#2063#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" selection-end-column="72" />
           <folding>
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
           </folding>
         </state>
       </provider>
