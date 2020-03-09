@@ -9,6 +9,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/class/production/数据结构/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,65 +26,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-              <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4020">
+              <caret line="207" selection-start-line="207" selection-end-line="211" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+            <state relative-caret-position="180">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2090#2091#0" expanded="true" />
-                <element signature="e#2122#2123#0" expanded="true" />
-                <element signature="e#2151#2152#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
-                <element signature="e#2214#2215#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#3460#3461#0" expanded="true" />
-                <element signature="e#3565#3566#0" expanded="true" />
-                <element signature="e#3641#3642#0" expanded="true" />
-                <element signature="e#3750#3751#0" expanded="true" />
-                <element signature="e#3807#3808#0" expanded="true" />
-                <element signature="e#3878#3879#0" expanded="true" />
-                <element signature="e#3937#3938#0" expanded="true" />
-                <element signature="e#4012#4013#0" expanded="true" />
-                <element signature="e#4158#4159#0" expanded="true" />
-                <element signature="method#preOrderSearch#0;class#Node#0" />
-                <element signature="method#infixOrderSearch#0;class#Node#0" />
-                <element signature="method#postOrderSearch#0;class#Node#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="128" selection-start-line="128" selection-end-line="301" selection-end-column="1" />
-              <folding>
-                <element signature="class#Node#0" />
-                <element signature="method#preOrderSearch#0;class#Node#0" />
-                <element signature="method#infixOrderSearch#0;class#Node#0" />
-                <element signature="method#postOrderSearch#0;class#Node#0" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +63,8 @@
       <find>hh</find>
       <find>mer</find>
       <find>modco</find>
+      <find>list</find>
+      <find>infix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,10 +116,12 @@
         <option value="$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/hashtab/MyHashTable.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/MergeSort.java" />
-        <option value="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/ThreadedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort1.java" />
+        <option value="$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -181,9 +146,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="705" />
-    <option name="y" value="90" />
-    <option name="width" value="1770" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -194,7 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,13 +191,48 @@
               <item name="代码" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="hashtab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="threadedBinaryTreeDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="代码" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="threadedBinaryTreeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadedBinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,20 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadedBinaryTree">
-    <configuration name="ArrayBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ArrayBinaryTree" />
-      <module name="数据结构" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.threadedBinaryTreeDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HeapSort">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BinaryTree" />
       <module name="数据结构" />
@@ -294,12 +281,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.FibonacciSearch" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.HeapSort" />
       <module name="数据结构" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.HeapSort" />
+      <module name="数据结构" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,11 +335,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadedBinaryTree" />
-        <item itemvalue="Application.ArrayBinaryTree" />
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.MyHashTable" />
-        <item itemvalue="Application.FibonacciSearch" />
+        <item itemvalue="Application.ThreadedBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +365,9 @@
       <workItem from="1583287198560" duration="19214000" />
       <workItem from="1583375075704" duration="15438000" />
       <workItem from="1583409196761" duration="19024000" />
+      <workItem from="1583633743573" duration="20339000" />
+      <workItem from="1583666733378" duration="4604000" />
+      <workItem from="1583719578040" duration="2370000" />
     </task>
     <task id="LOCAL-00001" summary="添加栈和单向循环链表">
       <created>1583048307745</created>
@@ -494,18 +495,25 @@
       <option name="project" value="LOCAL" />
       <updated>1583580590239</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加线索化二叉树">
+      <created>1583585303810</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583585303810</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177327000" />
+    <option name="totallyTimeSpent" value="204740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31123686" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3160873" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -513,8 +521,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.103019536" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.5506217" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.053285968" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.053285968" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -537,40 +545,6 @@
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32983023" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31123686" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.23268206" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.1616341" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.05856833" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32983023" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -643,10 +617,37 @@
     <MESSAGE value="添加哈希表的查询功能" />
     <MESSAGE value="添加二叉树的遍历、添加、删除功能" />
     <MESSAGE value="添加数组存储二叉树的前序、中序、后序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加数组存储二叉树的前序、中序、后序遍历" />
+    <MESSAGE value="添加线索化二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加线索化二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
@@ -657,11 +658,34 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Data_Structure_and_Algorithm$ThreadedBinaryTree.ic" NAME="ThreadedBinaryTree Coverage Results" MODIFIED="1583652171371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tree.threadedBinaryTreeDemo.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Java_Data_Structure_and_Algorithm$CycleSingleLinkedListDemo.ic" NAME="CycleSingleLinkedListDemo Coverage Results" MODIFIED="1583042930040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$SingleLinkedList.ic" NAME="SingleLinkedList Coverage Results" MODIFIED="1582867585282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>node</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node5</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this</expression-string>
         <language-id>JAVA</language-id>
@@ -687,43 +711,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>right</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mid</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>buckets</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -938,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/InsertValueSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1086,12 +1069,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="81" column="24" lean-forward="true" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="128" selection-start-line="128" selection-end-line="301" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
           <folding>
-            <element signature="class#Node#0" />
             <element signature="method#preOrderSearch#0;class#Node#0" />
             <element signature="method#infixOrderSearch#0;class#Node#0" />
             <element signature="method#postOrderSearch#0;class#Node#0" />
@@ -1099,48 +1099,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/ArrayBinaryTree.java">
+    <entry file="file://$USER_HOME$/Desktop/权限/图解Java数据结构和算法-尚硅谷-韩顺平/代码/DataStructures/src/com/atguigu/tree/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="473">
+          <caret line="96" lean-forward="true" selection-start-line="6" selection-end-line="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/tree/threadedBinaryTreeDemo/ThreadedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+        <state relative-caret-position="4020">
+          <caret line="207" selection-start-line="207" selection-end-line="211" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/algorithm/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2122#2123#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#3460#3461#0" expanded="true" />
-            <element signature="e#3565#3566#0" expanded="true" />
-            <element signature="e#3641#3642#0" expanded="true" />
-            <element signature="e#3750#3751#0" expanded="true" />
-            <element signature="e#3807#3808#0" expanded="true" />
-            <element signature="e#3878#3879#0" expanded="true" />
-            <element signature="e#3937#3938#0" expanded="true" />
-            <element signature="e#4012#4013#0" expanded="true" />
-            <element signature="e#4158#4159#0" expanded="true" />
-            <element signature="method#preOrderSearch#0;class#Node#0" />
-            <element signature="method#infixOrderSearch#0;class#Node#0" />
-            <element signature="method#postOrderSearch#0;class#Node#0" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -84,15 +84,20 @@ public class BinaryTree {
         try {
             BinaryTree binaryTree = new BinaryTree();
             Node root = new Node(1, "john1");
-            Node node2 = new Node(2, "john2");
-            Node node3 = new Node(3, "john3");
-            Node node4 = new Node(4, "john4");
-            Node node5 = new Node(5, "john5");
-            root.setLeft(node2);
-            root.setRight(node3);
-            node3.setLeft(node5);
-            node3.setRight(node4);
+            Node node3 = new Node(3, "john2");
+            Node node6 = new Node(6, "john3");
+            Node node8 = new Node(8, "john4");
+            Node node10 = new Node(10, "john5");
+            Node node14 = new Node(14, "john5");
+            root.setLeft(node3);
+            root.setRight(node6);
+            node3.setLeft(node8);
+            node3.setRight(node10);
+            node6.setLeft(node14);
             binaryTree.setRoot(root);
+            System.out.println("----");
+            binaryTree.postOrder();
+            System.out.println("-----");
             //前序查询次数：1---->2---->3----->5 共4次
             Node resNode = binaryTree.preOrderSearch(5);
             if (resNode != null) {
