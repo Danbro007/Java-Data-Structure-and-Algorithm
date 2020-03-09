@@ -24,11 +24,13 @@ public class HuffManCoding {
         Node2 node = createHuffManTree(nodes);
         //把获取的霍夫曼编码存到huffManCodes里
         getHuffManCodes(node);
-        System.out.println(huffManCodes);
+        byte[] zip = zip(bytes, huffManCodes);
+        System.out.println(Arrays.toString(zip));
     }
 
     /**
      * 把字节数组转换成node的list，每个node包含一种字符的字节
+     *
      * @param bytes 传入的字节数组
      * @return node list
      */
@@ -49,6 +51,7 @@ public class HuffManCoding {
 
     /**
      * 创建霍夫曼树
+     *
      * @param nodes 节点list
      * @return 霍夫曼树
      */
@@ -70,6 +73,7 @@ public class HuffManCoding {
 
     /**
      * 中序遍历霍夫曼树
+     *
      * @param root 要遍历的起始节点
      */
     public static void preOrder(Node2 root) {
@@ -82,12 +86,13 @@ public class HuffManCoding {
 
     /**
      * 获得霍夫曼编码
+     *
      * @param node 起始节点
      */
     public static void getHuffManCodes(Node2 node) {
-        if (node == null){
+        if (node == null) {
             System.out.println("此树为空树");
-        }else {
+        } else {
             //从根节点的左节点开始
             getHuffManCodes(node.getLeft(), "0", stringBuilder);
             //从根节点的右节点开始
@@ -97,8 +102,9 @@ public class HuffManCoding {
 
     /**
      * 获取霍夫曼编码存入到huffManCodes的map里
-     * @param node 传入节点
-     * @param code 路径： 1：右节点   0：左节点
+     *
+     * @param node          传入节点
+     * @param code          路径： 1：右节点   0：左节点
      * @param stringBuilder 用于拼接路径
      */
     public static void getHuffManCodes(Node2 node, String code, StringBuilder stringBuilder) {
@@ -116,6 +122,30 @@ public class HuffManCoding {
                 huffManCodes.put(node.getData(), stringBuilder2.toString());
             }
         }
+    }
+
+    /**
+     * @param contentBytes
+     * @param huffManCodes
+     * @return
+     */
+    public static byte[] zip(byte[] contentBytes, HashMap<Byte, String> huffManCodes) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < contentBytes.length; i++) {
+            stringBuilder.append(huffManCodes.get(contentBytes[i]));
+        }
+        int len = (stringBuilder.length() + 7) / 8;
+        byte[] huffManCodeArray = new byte[len];
+        int index = 0;
+
+        for (int i = 0; i < stringBuilder.length(); i += 8) {
+            if (i + 8 > stringBuilder.length()) {
+                huffManCodeArray[index++] = (byte) Integer.parseInt(stringBuilder.substring(i), 2);
+            } else {
+                huffManCodeArray[index++] = (byte) Integer.parseInt(stringBuilder.substring(i, i + 8), 2);
+            }
+        }
+        return huffManCodeArray;
     }
 
 }
