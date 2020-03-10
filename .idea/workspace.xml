@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db667e16-e505-41d8-94ac-67cd1ae785b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,37 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/代码/数据结构/src/hashtab/MyHashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#huffManZip#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#getNodes#0;class#HuffManCoding#0" />
-                <element signature="method#getNodes#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#createHuffManTree#0;class#HuffManCoding#0" />
-                <element signature="method#createHuffManTree#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#preOrder#0;class#HuffManCoding#0" />
-                <element signature="method#preOrder#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#getHuffManCodes#0;class#HuffManCoding#0" />
-                <element signature="method#getHuffManCodes#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#getHuffManCodes#1;class#HuffManCoding#0" />
-                <element signature="method#getHuffManCodes#1;class#HuffManCoding#0" />
-                <element signature="docComment;method#byteToString#0;class#HuffManCoding#0" />
-                <element signature="method#byteToString#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#decode#0;class#HuffManCoding#0" />
-                <element signature="method#decode#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#zip#0;class#HuffManCoding#0" />
-                <element signature="method#zip#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#stringToContent#0;class#HuffManCoding#0" />
-                <element signature="method#stringToContent#0;class#HuffManCoding#0" />
-                <element signature="docComment;method#zipFile#0;class#HuffManCoding#0" />
-                <element signature="method#zipFile#0;class#HuffManCoding#0" />
-                <element signature="method#unZipFile#0;class#HuffManCoding#0" />
-                <element signature="class#Node2#0" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54689">
+              <caret line="3288" selection-start-line="3288" selection-end-line="3288" />
             </state>
           </provider>
         </entry>
@@ -76,8 +84,6 @@
       <find>list</find>
       <find>infix</find>
       <find>tempLeft</find>
-      <find>system</find>
-      <find>decode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,45 +183,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Data-Structure-and-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-Data-Structure-and-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="huffManTree" type="462c0819:PsiDirectoryNode" />
+              <item name="Java数据结构与算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java数据结构与算法" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,21 +203,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/代码/数据结构/src/huffManTree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaProject\Java-Data-Structure-and-Algorithm\代码\数据结构\src\huffManTree" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\Java数据结构与算法\代码\数据结构" />
     </key>
@@ -371,9 +347,7 @@
       <workItem from="1583666733378" duration="4604000" />
       <workItem from="1583719578040" duration="16985000" />
       <workItem from="1583744917030" duration="1414000" />
-      <workItem from="1583755713656" duration="4072000" />
-      <workItem from="1583760630844" duration="2167000" />
-      <workItem from="1583805749061" duration="8089000" />
+      <workItem from="1583832875427" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="添加栈和单向循环链表">
       <created>1583048307745</created>
@@ -519,7 +493,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235402000" />
+    <option name="totallyTimeSpent" value="221107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,10 +505,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="662" y="59" width="595" height="922" id="Project" order="0" weight="0.25303152" />
+      <window_info active="true" content_ui="combo" x="662" y="59" width="595" height="922" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,8 +516,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.053285968" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.29840142" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.2505423" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.30151844" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.22668113" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -707,15 +680,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java</url>
-          <line>259</line>
+          <line>136</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java</url>
-          <line>264</line>
+          <line>137</line>
           <properties />
-          <option name="timeStamp" value="44" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -734,47 +707,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>huffManCodes</expression-string>
+        <expression-string>node</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fis.available()</expression-string>
+        <expression-string>node5</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>fis</expression-string>
+        <expression-string>node3</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>contentBytes</expression-string>
+        <expression-string>pre</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map</expression-string>
+        <expression-string>this</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>Integer.toBinaryString(temp)</expression-string>
+        <expression-string>high</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>stringBuilder.substring(i)</expression-string>
+        <expression-string>f</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>huffManZip</expression-string>
+        <expression-string>array[right]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>stringBuilder.substring(i, i + 8)</expression-string>
+        <expression-string>array[left]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -947,6 +920,24 @@
           <caret line="252" column="39" lean-forward="true" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
           <folding>
             <element signature="method#del#0;class#SingleLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="137" column="30" lean-forward="true" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
+          <folding>
+            <element signature="e#4677#4678#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,9 +1146,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/hashtab/MyHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#349#350#0" expanded="true" />
@@ -1172,66 +1170,15 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="54689">
           <caret line="3288" selection-start-line="3288" selection-end-line="3288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="110" column="25" lean-forward="true" selection-start-line="110" selection-start-column="25" selection-end-line="110" selection-end-column="25" />
-          <folding>
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/代码/数据结构/src/search/FibonacciSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/代码/数据结构/src/huffManTree/HuffManCoding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#huffManZip#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#getNodes#0;class#HuffManCoding#0" />
-            <element signature="method#getNodes#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#createHuffManTree#0;class#HuffManCoding#0" />
-            <element signature="method#createHuffManTree#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#preOrder#0;class#HuffManCoding#0" />
-            <element signature="method#preOrder#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#getHuffManCodes#0;class#HuffManCoding#0" />
-            <element signature="method#getHuffManCodes#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#getHuffManCodes#1;class#HuffManCoding#0" />
-            <element signature="method#getHuffManCodes#1;class#HuffManCoding#0" />
-            <element signature="docComment;method#byteToString#0;class#HuffManCoding#0" />
-            <element signature="method#byteToString#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#decode#0;class#HuffManCoding#0" />
-            <element signature="method#decode#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#zip#0;class#HuffManCoding#0" />
-            <element signature="method#zip#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#stringToContent#0;class#HuffManCoding#0" />
-            <element signature="method#stringToContent#0;class#HuffManCoding#0" />
-            <element signature="docComment;method#zipFile#0;class#HuffManCoding#0" />
-            <element signature="method#zipFile#0;class#HuffManCoding#0" />
-            <element signature="method#unZipFile#0;class#HuffManCoding#0" />
-            <element signature="class#Node2#0" />
-          </folding>
+        <state relative-caret-position="274">
+          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1287,12 +1234,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>数据结构</last-edited>
+          <last-edited>Java数据结构与算法</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
