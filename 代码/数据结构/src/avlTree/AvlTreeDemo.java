@@ -269,7 +269,7 @@ class Node {
     }
 
     /**
-     * 节点的有旋转
+     * 节点的右旋转
      */
     public void rightRotate() {
         //创建一个新节点 value为当前节点的value
@@ -335,6 +335,7 @@ class Node {
         }
         //如果右子树的高度 - 左子树的高度 > 1则左旋转
         if (this.getRightHeight() - this.getLeftHeight() > 1) {
+            //再次判断如果当前节点的右子树的左子树高度大于右子树的右子树，则进行右旋转
             if (this.getRight() != null && this.getRight().getLeftHeight() > this.getRight().getLeftHeight()) {
                 this.getRight().rightRotate();
             }
@@ -342,6 +343,7 @@ class Node {
         }
         //右旋转
         else if (this.getLeftHeight() - this.getRightHeight() > 1) {
+            //再次判断如果当前节点的左子树的右子树高度大于左子树的左子树，则进行左旋转
             if (this.getLeft() != null && this.getLeft().getLeftHeight() < this.getLeft().getRightHeight()) {
                 this.getLeft().leftRotate();
             }

@@ -3,10 +3,7 @@ package huffManTree;
 
 import java.io.*;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * @Classname HuffManCoding
@@ -34,13 +31,14 @@ public class HuffManCoding {
         BigDecimal afterZipLength = new BigDecimal(bytes.length - huffManZip.length);
         System.out.println("压缩率：" + (afterZipLength.divide(beforeZipLength).multiply(new BigDecimal(100)).toString()) + "%");
         //解码
-        decode(huffManZip);
-        String srcFile = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.bmp";
-        String destFile = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.zip";
-        String srcFile1 = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.zip";
-        String destFile2 = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src2.bmp";
-        zipFile(srcFile, destFile);
-        unZipFile(srcFile1, destFile2);
+        byte[] decode = decode(huffManZip);
+        System.out.println(new String(decode));
+//        String srcFile = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.bmp";
+//        String destFile = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.zip";
+//        String srcFile1 = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src.zip";
+//        String destFile2 = "D:\\javaProject\\Java-Data-Structure-and-Algorithm\\代码\\数据结构\\src\\huffManTree\\src2.bmp";
+//        zipFile(srcFile, destFile);
+//        unZipFile(srcFile1, destFile2);
 
     }
 
@@ -145,12 +143,13 @@ public class HuffManCoding {
         stringBuilder2.append(code);
         if (node != null) {
             /**
-             * node的data = null说明是非叶子节点
+             * node的data = null说明是非叶子节点则继续往左节点和右节点递归遍历
              */
             if (node.getData() == null) {
                 getHuffManCodes(node.getLeft(), "0", stringBuilder2);
                 getHuffManCodes(node.getRight(), "1", stringBuilder2);
             } else {
+                //如果是叶子节点，把他的路径存入到huffManCodes的hashMap中
                 huffManCodes.put(node.getData(), stringBuilder2.toString());
             }
         }
@@ -189,11 +188,10 @@ public class HuffManCoding {
             stringBuilder.append(s);
         }
         return stringToContent(stringBuilder.toString());
-
     }
 
     /**
-     * 把byte数组转化成霍夫曼编码的数组
+     * 把字符串byte数组转化成霍夫曼编码的数组
      *
      * @param contentBytes 字符串转换成的byte数组
      * @param huffManCodes 霍夫曼编码后的数组
@@ -201,6 +199,7 @@ public class HuffManCoding {
      */
     public static byte[] zip(byte[] contentBytes, HashMap<Byte, String> huffManCodes) {
         StringBuilder stringBuilder = new StringBuilder();
+        //遍历整个字符串的字节数组，通过huffManCodes的key映射value存入到stringBuilder中
         for (int i = 0; i < contentBytes.length; i++) {
             stringBuilder.append(huffManCodes.get(contentBytes[i]));
         }
@@ -226,27 +225,32 @@ public class HuffManCoding {
                 huffManCodeArray[index++] = (byte) Integer.parseInt(stringBuilder.substring(i, i + 8), 2);
             }
         }
+        System.out.println(Arrays.toString(huffManCodeArray));
         return huffManCodeArray;
     }
-
     /**
-     * 把传入的二进制转换成字符码
+     * 把传入的二进制转换成ASCII码
      *
      * @param str 把传入的二进制
      * @return 返回字符数组
      */
     public static byte[] stringToContent(String str) {
         List<Byte> list = new ArrayList<>();
+        //把huffManCodes的key和value交换
         HashMap<String, Byte> map = new HashMap<>(16);
         huffManCodes.entrySet().forEach(e -> {
             map.put(e.getValue(), e.getKey());
         });
+        //遍历每个二进制，因为霍夫曼的编码是前缀编码，不会出现重复
         for (int i = 0; i < str.length(); ) {
             boolean flag = true;
             int count = 1;
             Byte b = null;
+            //遍历整个字符串并拼接，如果拼接后的字符串能在map中找到value
+            //则把这个value加入到list中
             while (flag) {
                 String key = str.substring(i, i + count);
+                //从map里获取ASSICII码
                 b = map.get(key);
                 if (b == null) {
                     count++;
@@ -257,13 +261,13 @@ public class HuffManCoding {
             list.add(b);
             i += count;
         }
+        //把存储ASICII编码的list转换到字节数组里方便之后转成string打印
         byte[] bytes = new byte[list.size()];
         int index = 0;
         for (Byte aByte : list) {
             bytes[index++] = aByte;
         }
         return bytes;
-
     }
 
     /**
