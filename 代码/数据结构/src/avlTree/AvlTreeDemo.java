@@ -1,39 +1,29 @@
-package binarySortTree;
+package avlTree;
 
 /**
- * @Classname BinarySortTreeDemo
- * @Description TODO 二叉排序树
- * @Date 2020/3/10 14:50
+ * @Classname AvlTreeDemo
+ * @Description TODO AVL树
+ * @Date 2020/3/11 10:14
  * @Author Danrbo
  */
-public class BinarySortTreeDemo {
+public class AvlTreeDemo {
     public static void main(String[] args) {
-        BinarySortTree binarySortTree = new BinarySortTree();
-        int[] array = {7, 3, 10, 12, 5, 1, 9, 2};
+        int[] array = {10, 11, 8, 9, 7, 6};
+        AvlTree avlTree = new AvlTree();
         for (int i = 0; i < array.length; i++) {
-            binarySortTree.add(new Node(array[i]));
+            avlTree.add(new Node(array[i]));
         }
-        System.out.println("中序遍历：");
-        binarySortTree.infixOrder();//[1,3,5,7,9,10,12]
-        System.out.println("开始删除节点");
-        binarySortTree.delNode(2);
-        binarySortTree.delNode(5);
-        binarySortTree.delNode(9);
-        binarySortTree.delNode(12);
-        binarySortTree.delNode(7);
-        binarySortTree.delNode(3);
-        binarySortTree.delNode(10);
-        System.out.println("删除完成");
-        binarySortTree.infixOrder();
+        System.out.println("树的高度为：" + avlTree.getRoot().getHeight());//4
+        System.out.println("树的左子树的高度为：" + avlTree.getRoot().getLeftHeight());//1
+        System.out.println("树的右子树的高度为：" + avlTree.getRoot().getRightHeight());//3
+        System.out.println("当前的根节点为：" + avlTree.getRoot());//8
+        avlTree.infixOrder();
     }
 }
 
-/**
- * 二叉排序树
- */
-class BinarySortTree {
+
+class AvlTree {
     private Node root;
-    private Node pre;
 
     /**
      * 在树上添加节点
@@ -71,6 +61,7 @@ class BinarySortTree {
 
     /**
      * 查询要删除节点的父节点
+     *
      * @param value 要删除节点的值
      * @return 父节点
      */
@@ -134,7 +125,7 @@ class BinarySortTree {
                      *     /
                      *   1
                      */
-                    if (parentNode != null){
+                    if (parentNode != null) {
                         //如果要删除的点在父节点的左节点则把父节点的左节点设置为要删除的节点的左节点
                         //相当于删除节点
                         if (parentNode.getLeft().getValue() == value) {
@@ -143,19 +134,19 @@ class BinarySortTree {
                             //设置父节点的右节点为要删除节点的左节点
                             parentNode.setRight(targetNode.getLeft());
                         }
-                    }else {
+                    } else {
                         //root指向要删除节点的子节点
                         root = targetNode.getLeft();
                     }
 
                 } else {
-                    if (parentNode != null){
+                    if (parentNode != null) {
                         if (parentNode.getRight().getValue() == value) {
                             parentNode.setRight(targetNode.getRight());
                         } else {
                             parentNode.setLeft(targetNode.getRight());
                         }
-                    }else {
+                    } else {
                         root = targetNode.getRight();
                     }
 
@@ -166,17 +157,18 @@ class BinarySortTree {
 
     /**
      * 在要删除节点的右子树里找到最小值，然后把他删除，并返回这个最小值节点的value
-     *这个最小值说明它的值在大于要删除的节点
+     * 这个最小值说明它的值在大于要删除的节点
      * 比如：
-     *             7
-     *         /     \
-     *        3      10
-     *      / \     / \
-     *    1   5    9  12
-     *   /\   /\
-     *  0  2 4 6
+     * 7
+     * /     \
+     * 3      10
+     * / \     / \
+     * 1   5    9  12
+     * /\   /\
+     * 0  2 4 6
+     * <p>
+     * 你要删除节点 3,它的右节点为 5 ,既在3的右子树里找到最小值 4 ，它的值在 3 和 5 之间,
      *
-     *  你要删除节点 3,它的右节点为 5 ,既在3的右子树里找到最小值 4 ，它的值在 3 和 5 之间,
      * @param node 要删除的节点的右节点
      * @return 最小值的value
      */
@@ -200,15 +192,12 @@ class BinarySortTree {
         this.root = root;
     }
 
-    public Node getPre() {
-        return pre;
-    }
-
-    public void setPre(Node pre) {
-        this.pre = pre;
-    }
 }
 
+
+/**
+ * 节点类
+ */
 class Node {
     private int value;
     private Node left;
@@ -225,6 +214,78 @@ class Node {
     public void setValue(int value) {
         this.value = value;
     }
+
+    /**
+     * 获取当前节点所在子树的高度
+     *
+     * @return 树的高度
+     */
+    public int getHeight() {
+        return Math.max(this.getLeft() == null ? 0 : this.getLeft().getHeight(), this.getRight() == null ? 0 : this.getRight().getHeight()) + 1;
+    }
+
+    /**
+     * 当前节点右子树的高度
+     *
+     * @return 右子树的高度
+     */
+    public int getRightHeight() {
+        if (this.getRight() == null) {
+            return 0;
+        } else {
+            return this.getRight().getHeight();
+        }
+    }
+
+    /**
+     * 当前节点左子树的高度
+     *
+     * @return 左子树的高度
+     */
+    public int getLeftHeight() {
+        if (this.getLeft() == null) {
+            return 0;
+        } else {
+            return this.getLeft().getHeight();
+        }
+    }
+
+    /**
+     * 节点的左旋转
+     */
+    public void leftRotate() {
+        //先创建一个新节点，value为这个当前节点的value
+        Node newNode = new Node(this.getValue());
+        //新节点的左子树指向当前节点的左子树
+        newNode.setLeft(this.getLeft());
+        //新节点的right指向当前节点的右子树的右子树
+        newNode.setRight(this.getRight().getLeft());
+        //当前节点的value设置为当前节点的value节点的value
+        this.setValue(this.getRight().getValue());
+        //当前节点的右子树设置为当前节点右子树的右子树
+        this.setRight(this.getRight().getRight());
+        //把当前节点的左子树设置为新的节点
+        this.setLeft(newNode);
+    }
+
+    /**
+     * 节点的有旋转
+     */
+    public void rightRotate() {
+        //创建一个新节点 value为当前节点的value
+        Node newNode = new Node(this.getValue());
+        //新节点的右子树为当前节点的右子树
+        newNode.setRight(this.getRight());
+        //新节点的左子树是当前节点的左子树的右子树
+        newNode.setLeft(this.getLeft().getRight());
+        //当前节点的value设置为当前节点左节点的value
+        this.setValue(this.getLeft().getValue());
+        //当前节点的左子树设置为当前节点左子树的左子树
+        this.setLeft(this.getLeft().getLeft());
+        //把当前节点的右子树设置为新的节点
+        this.setRight(newNode);
+    }
+
 
     public Node getLeft() {
         return left;
@@ -271,6 +332,20 @@ class Node {
                     this.getRight().add(node);
                 }
             }
+        }
+        //如果右子树的高度 - 左子树的高度 > 1则左旋转
+        if (this.getRightHeight() - this.getLeftHeight() > 1) {
+            if (this.getRight() != null && this.getRight().getLeftHeight() > this.getRight().getLeftHeight()) {
+                this.getRight().rightRotate();
+            }
+            this.leftRotate();
+        }
+        //右旋转
+        else if (this.getLeftHeight() - this.getRightHeight() > 1) {
+            if (this.getLeft() != null && this.getLeft().getLeftHeight() < this.getLeft().getRightHeight()) {
+                this.getLeft().leftRotate();
+            }
+            this.rightRotate();
         }
     }
 
