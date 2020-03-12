@@ -187,6 +187,7 @@ public class HeapSort implements Algorithm {
                 break;
             }
         }
+        //交换位置
         array[i] = temp;
     }
 }

@@ -75,7 +75,7 @@ public class QuickSort implements Algorithm {
      */
     public void quickSort(int[] arr, int low, int high) {
         //数组里只有一个元素 结束递归
-        if (low >= high) {
+        if (low > high) {
             return;
         }
         //数组低位的起始光标
@@ -108,9 +108,9 @@ public class QuickSort implements Algorithm {
         arr[low] = arr[i];
         arr[i] = midValue;
         //递归调用左半数组
-        quickSort(arr, low, j - 1);
+        quickSort(arr, low, i - 1);
         //递归调用右半数组
-        quickSort(arr, j + 1, high);
+        quickSort(arr, i + 1, high);
     }
 
 
