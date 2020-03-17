@@ -82,7 +82,7 @@ class Graph {
      * 更新指定点的距离和前驱节点
      * 如果遇到距离变短则更新及它的前驱节点
      *
-     * @param index 要更新的点
+     * @param index 要更新的点的下标
      */
     private void update(int index) {
         int len;
