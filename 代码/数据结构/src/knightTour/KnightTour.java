@@ -111,6 +111,7 @@ public class KnightTour {
 
     /**
      * 优化查找速度，给pointsList按照他们的下一个位置的list里的point总数从小到大排序
+     * 这样可以优先查找每步棋里下一步棋最少的
      * @param pointsList 棋子的位置list
      */
     public static void sort(List<Point> pointsList){

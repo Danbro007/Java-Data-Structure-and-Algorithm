@@ -63,15 +63,14 @@ class Graph {
     /**
      * Dijkstra算法
      *
+     * 1、 更新出发节点它周围的节点与出发节点的距离和它们的前驱节点
+     *     既 alreadyVisited[i] = true
+     *     更新其他点到 j 距离和前驱节点
      * @param index 出发顶点的下标
      */
     public void dsj(int index) {
         visitedVertex = new VisitedVertex(vertexes.length, index);
-        //更新出发节点它周围的节点与出发节点的距离和它们的前驱节点
         update(index);
-        //依次找出 出发点index 到 i 的最小距离的节点 j ，找到后并标记为访问过
-        //既 alreadyVisited[i] = true
-        //更新其他点到 j 距离和前驱节点
         for (int i = 1; i < vertexes.length; i++) {
             int j = visitedVertex.updateArr();
             update(j);
@@ -81,19 +80,18 @@ class Graph {
     /**
      * 更新指定点的距离和前驱节点
      * 如果遇到距离变短则更新及它的前驱节点
-     *
+     * 1、循环遍历当前节点的周围其他节点
+     * 2、如果当前节点index的周围节点 i 还没被访问过并且出发节点到 i 的长度大于 len,
+     *    既出发节点到 i 的距离 大于 出发节点到 index  + index 到 i 的和,
+     *   说明出发节点到 index  + index 到 i 的和距离更短
+     *   则更新 i 的前驱结点为index 和 i 到出发节点的距离为 len
      * @param index 要更新的点的下标
      */
     private void update(int index) {
         int len;
-        //循环遍历当前节点的周围其他节点
+        //
         for (int i = 0; i < matrix[index].length; i++) {
-            //len = 从出发顶点到index的距离 + index到i的距离
             len = this.visitedVertex.getDis(index) + matrix[index][i];
-            //如果当前节点index的周围节点 i 还没被访问过并且出发节点到 i 的长度大于 len,
-            // 既出发节点到 i 的距离 大于 出发节点到 index  + index 到 i 的和,
-            // 说明出发节点到 index  + index 到 i 的和距离更短
-            // 则更新 i 的前驱结点为index 和 i 到出发节点的距离为 len
             if (!this.visitedVertex.isVisited(i) && len < this.visitedVertex.getDis(i)) {
                 this.visitedVertex.updatePre(i, index);
                 this.visitedVertex.updateDis(i, len);
@@ -116,7 +114,7 @@ class VisitedVertex {
     /**
      * 存储每个点前驱节点的下标
      */
-    private int[] pre_visited;
+    private int[] preVisited;
 
     /**
      * 创建访问节点的数组
@@ -128,7 +126,7 @@ class VisitedVertex {
         alreadyVisited = new boolean[length];
         alreadyVisited[index] = true;
         dis = new int[length];
-        pre_visited = new int[length];
+        preVisited = new int[length];
         Arrays.fill(dis, 65535);
         dis[index] = 0;
     }
@@ -160,7 +158,7 @@ class VisitedVertex {
      * @param pre   前驱节点
      */
     public void updatePre(int index, int pre) {
-        pre_visited[index] = pre;
+        preVisited[index] = pre;
     }
 
     /**
@@ -175,15 +173,14 @@ class VisitedVertex {
 
 
     /**
-     * 找到最短距离节点的下标
-     *
-     * @return 最短距离的下标
+     * 1、找到距离出发节点最短距离节点的下标
+     * 2、遍历alreadyVisited，如果节点没被访问过并且出发节点到 i 节点的距离小于min
+     * 则说明 出发节点到 i 的距离最短 index = i
+     * @return 最短距离的节点下标
      */
     public int updateArr() {
         int min = 65535;
         int index = 0;
-        //遍历alreadyVisited，如果节点没被访问过并且 出发节点到 i 节点的距离小于min
-        //则说明 出发节点到 i 的距离最短 index = i
         for (int i = 0; i < alreadyVisited.length; i++) {
             if (!alreadyVisited[i] && min > getDis(i)) {
                 min = getDis(i);
@@ -203,8 +200,8 @@ class VisitedVertex {
         System.out.print("dis:");
         System.out.println(Arrays.toString(dis));
         System.out.println();
-        System.out.print("pre_visited:");
-        System.out.println(Arrays.toString(pre_visited));
+        System.out.print("preVisited:");
+        System.out.println(Arrays.toString(preVisited));
     }
 }
 
